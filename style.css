@@ -1,0 +1,78 @@
+* {
+  font-family: 'MedievalSharp', cursive;
+  font-weight: bold;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: linear-gradient(-45deg, #4a235a, #17202a); /* Dark purple to dark blue gradient */
+  color: #2c3e50; /* Dark text color */
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+#game {
+  max-width: 80%;
+  background-color: #341f47; /* Dark purple background */
+  border: 5px solid #0e2a38; /* Dark blue border */
+  border-radius: 15px;
+  padding: 2%;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+button {
+  background-color: #0e2a38; /* Dark blue button color */
+  color: #ffffff;
+  padding: 1.2% 2.5%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: 0.5s ease;
+}
+
+button:hover {
+  background-color: #03141f; /* Darker blue on hover */
+}
+
+#stats, #monsterStats {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-top: 2%;
+}
+
+.stat {
+  display: inline-block;
+  margin-right: 2%;
+}
+
+#text {
+  background-color: #4a235a; /* Dark purple text box color */
+  color: #ffffff;
+  padding: 4%;
+  border-radius: 10px;
+  margin-top: 2%;
+  font-size: 1.2em;
+}
+
+#monsterStats {
+  display: none;
+  background-color: #341f47; /* Dark purple monster stats color */
+}
+
+#monsterName, #monsterHealth {
+  color: #ffffff;
+}
+
+#text, #game, button {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Box shadow for stats */
+}
