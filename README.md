@@ -1,4 +1,4 @@
-# Castle-RPG
+# Magic-RPG
 
 This repository is a project I did to implement my HTML, CSS, and JavaScript skills following freeCodeCamp's resource. 
 
